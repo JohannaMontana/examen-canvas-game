@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventuras de Cinnamoroll</title>
+    <link rel="icon" href="images/juegoicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Aventuras de Cinnamoroll</h1>
+    </header>  
+    <main>
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <div id="instructions">
+            <h2>Instrucciones</h2>
+            <p>Bienvenido a las Aventuras de Cinnamoroll. Ayuda a Cinnamoroll a saltar sobre las nubes y rescatar a sus amigos.</p>
+            <p>Usa el mouse para mover a Cinnamoroll y haz clic en el botón "Continuar" si estás listo para comenzar.</p>
+            <p>¡Evita caer de las nubes y llega tan alto como puedas!</p>
+            <button id="continueButton" class="boton-continuar">Continuar</button>
+        </div>
+        <div id="gameInfo">
+            <p>Score: <span id="score">0</span></p>
+            <p>High Score: <span id="highScore">0</span></p>
+            <p>Kuromi: <span id="kuromiCount">0</span></p>
+            <p>Hello Kitty: <span id="helloKittyCount">0</span></p>
+            <p>Pompompurin: <span id="pompompurinCount">0</span></p>
+            <p id="gameStatus"></p>
+            <button id="restartButton" class="boton-reinicio">Reiniciar</button>
+        </div>
+    </main>
+    <footer>
+        <p>Johanna Morales Mateos</p>
+    </footer>
+    <audio id="music" loop autoplay>
+        <source src="images/audiocinna.mp3" type="audio/mpeg">
+        
+    </audio>
+    <script src="js/game.js"></script>
+</body>
+</html>
+
+

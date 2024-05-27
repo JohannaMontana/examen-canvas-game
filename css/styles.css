@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F6F4EB;
+    cursor: url('cursor1.png'), auto;
+    
+}
+
+header {
+    background-color: #146C94;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 120px);
+}
+
+canvas {
+    border: 2px solid #146C94;
+    border-radius: 10px;
+    background-color:F6F1F1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#gameInfo {
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #146C94;
+    color: white;
+    text-align: center;
+    padding: 2px 0;
+}
+
+.boton-reinicio, #continueButton {
+    background-color: #146C94;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.boton-reinicio:hover, #continueButton:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Estilos para elementos ocultos */
+.hidden {
+    display: none;
+}
+
+/* Estilos para las instrucciones del juego */
+/* Estilos para elementos ocultos */
+.hidden {
+    display: none;
+}
+
+/* Estilos para el contenedor del juego */
+#gameContainer {
+    position: relative;
+}
+
+/* Estilos para las instrucciones del juego */
+#instructions {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+#instructions h2 {
+    color: #146C94;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#instructions p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+
